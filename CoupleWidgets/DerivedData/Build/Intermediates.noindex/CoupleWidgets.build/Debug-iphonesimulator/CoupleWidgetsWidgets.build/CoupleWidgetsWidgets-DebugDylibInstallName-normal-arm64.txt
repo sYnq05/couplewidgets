@@ -1,1 +1,0 @@
-@rpath/CoupleWidgetsWidgets.debug.dylib
