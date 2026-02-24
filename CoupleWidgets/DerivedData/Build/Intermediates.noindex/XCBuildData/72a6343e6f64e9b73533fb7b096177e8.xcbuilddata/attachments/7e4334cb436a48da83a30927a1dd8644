@@ -1,0 +1,209 @@
+{
+  "" : {
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CoupleWidgetsWidgets-primary.dia",
+    "emit-module-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CoupleWidgetsWidgets-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CoupleWidgetsWidgets-primary-emit-module.dia",
+    "pch" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CoupleWidgetsWidgets-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CoupleWidgetsWidgets-primary.swiftdeps"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/CoupleWidgetsWidgets/CountdownWidget.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CountdownWidget.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CountdownWidget.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CountdownWidget.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CountdownWidget.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CountdownWidget.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CountdownWidget.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CountdownWidget.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CountdownWidget~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/CoupleWidgetsWidgets/DistanceWidget.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/DistanceWidget.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/DistanceWidget.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/DistanceWidget.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/DistanceWidget.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/DistanceWidget.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/DistanceWidget.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/DistanceWidget.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/DistanceWidget~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/CoupleWidgetsWidgets/NoteWidget.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/NoteWidget.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/NoteWidget.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/NoteWidget.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/NoteWidget.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/NoteWidget.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/NoteWidget.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/NoteWidget.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/NoteWidget~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/CoupleWidgetsWidgets/TimelineHelpers.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/TimelineHelpers.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/TimelineHelpers.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/TimelineHelpers.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/TimelineHelpers.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/TimelineHelpers.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/TimelineHelpers.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/TimelineHelpers.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/TimelineHelpers~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/CoupleWidgetsWidgets/WidgetBundle.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/WidgetBundle.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/WidgetBundle.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/WidgetBundle.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/WidgetBundle.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/WidgetBundle.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/WidgetBundle.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/WidgetBundle.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/WidgetBundle~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/Shared/Cache/AppGroupKeys.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/AppGroupKeys.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/AppGroupKeys.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/AppGroupKeys.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/AppGroupKeys.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/AppGroupKeys.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/AppGroupKeys.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/AppGroupKeys.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/AppGroupKeys~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/Shared/Cache/CacheService.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CacheService.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CacheService.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CacheService.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CacheService.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CacheService.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CacheService.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CacheService.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CacheService~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/Shared/Cache/CacheSnapshot.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CacheSnapshot.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CacheSnapshot.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CacheSnapshot.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CacheSnapshot.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CacheSnapshot.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CacheSnapshot.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CacheSnapshot.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CacheSnapshot~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/Shared/Calculators/DistanceCalculator.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/DistanceCalculator.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/DistanceCalculator.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/DistanceCalculator.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/DistanceCalculator.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/DistanceCalculator.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/DistanceCalculator.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/DistanceCalculator.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/DistanceCalculator~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/Shared/Formatting/CountdownFormatter.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CountdownFormatter.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CountdownFormatter.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CountdownFormatter.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CountdownFormatter.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CountdownFormatter.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CountdownFormatter.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CountdownFormatter.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CountdownFormatter~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/Shared/Formatting/InitialsFormatter.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/InitialsFormatter.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/InitialsFormatter.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/InitialsFormatter.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/InitialsFormatter.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/InitialsFormatter.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/InitialsFormatter.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/InitialsFormatter.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/InitialsFormatter~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/Shared/Models/CityPreset.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CityPreset.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CityPreset.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CityPreset.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CityPreset.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CityPreset.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CityPreset.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CityPreset.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CityPreset~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/Shared/Models/Countdown.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Countdown.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Countdown.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Countdown.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Countdown.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Countdown.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Countdown.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Countdown.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Countdown~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/Shared/Models/CoupleState.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CoupleState.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CoupleState.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CoupleState.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CoupleState.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CoupleState.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CoupleState.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CoupleState.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/CoupleState~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/Shared/Models/Note.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Note.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Note.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Note.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Note.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Note.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Note.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Note.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Note~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/Shared/Models/Streak.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Streak.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Streak.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Streak.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Streak.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Streak.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Streak.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Streak.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/Streak~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/Shared/Models/UserProfile.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/UserProfile.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/UserProfile.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/UserProfile.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/UserProfile.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/UserProfile.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/UserProfile.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/UserProfile.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/UserProfile~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/Shared/Services/InviteCodeGenerator.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/InviteCodeGenerator.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/InviteCodeGenerator.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/InviteCodeGenerator.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/InviteCodeGenerator.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/InviteCodeGenerator.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/InviteCodeGenerator.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/InviteCodeGenerator.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/InviteCodeGenerator~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/Shared/Services/PairingServiceMock.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/PairingServiceMock.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/PairingServiceMock.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/PairingServiceMock.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/PairingServiceMock.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/PairingServiceMock.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/PairingServiceMock.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/PairingServiceMock.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/PairingServiceMock~partial.swiftmodule"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/Shared/Services/StreakEngine.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/StreakEngine.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/StreakEngine.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/StreakEngine.dia",
+    "index-unit-output-path" : "/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/StreakEngine.o",
+    "llvm-bc" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/StreakEngine.bc",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/StreakEngine.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/StreakEngine.swiftdeps",
+    "swiftmodule" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgetsWidgets.build/Objects-normal/x86_64/StreakEngine~partial.swiftmodule"
+  }
+}

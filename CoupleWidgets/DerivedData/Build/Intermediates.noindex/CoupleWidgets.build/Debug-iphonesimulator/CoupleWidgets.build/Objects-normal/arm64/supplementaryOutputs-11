@@ -1,0 +1,23 @@
+{
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/CoupleWidgets/App/UI/PairingView.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/arm64/PairingView.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/arm64/PairingView.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/arm64/PairingView.dia",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/arm64/PairingView.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/arm64/PairingView.swiftdeps"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/Shared/Cache/AppGroupKeys.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/arm64/AppGroupKeys.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/arm64/AppGroupKeys.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/arm64/AppGroupKeys.dia",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/arm64/AppGroupKeys.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/arm64/AppGroupKeys.swiftdeps"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/Shared/Cache/CacheService.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/arm64/CacheService.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/arm64/CacheService.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/arm64/CacheService.dia",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/arm64/CacheService.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/arm64/CacheService.swiftdeps"
+  }
+}

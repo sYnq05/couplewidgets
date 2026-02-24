@@ -1,0 +1,104 @@
+{
+  "source": "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/CoupleWidgets/App/UI/CitiesView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Cities",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "Profiles",
+        "location": {
+          "startingColumn": 12,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cities",
+        "location": {
+          "startingColumn": 12,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "My name",
+        "location": {
+          "startingColumn": 15,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "Partner name",
+        "location": {
+          "startingColumn": 15,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "My initials",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "Partner initials",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Me",
+        "location": {
+          "startingColumn": 12,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Partner",
+        "location": {
+          "startingColumn": 12,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "—",
+        "location": {
+          "startingColumn": 11,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "—",
+        "location": {
+          "startingColumn": 11,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save",
+        "location": {
+          "startingColumn": 12,
+          "startingLine": 39
+        }
+      }
+    ]
+  },
+  "version": 1
+}

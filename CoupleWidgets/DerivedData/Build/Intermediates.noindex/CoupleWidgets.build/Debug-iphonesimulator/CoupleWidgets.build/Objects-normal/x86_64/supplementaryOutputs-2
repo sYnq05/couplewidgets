@@ -1,0 +1,23 @@
+{
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/CoupleWidgets/App/UI/DistanceView.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/x86_64/DistanceView.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/x86_64/DistanceView.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/x86_64/DistanceView.dia",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/x86_64/DistanceView.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/x86_64/DistanceView.swiftdeps"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/CoupleWidgets/App/UI/HomeView.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/x86_64/HomeView.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/x86_64/HomeView.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/x86_64/HomeView.dia",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/x86_64/HomeView.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/x86_64/HomeView.swiftdeps"
+  },
+  "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/CoupleWidgets/App/UI/NoteEditorView.swift" : {
+    "const-values" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/x86_64/NoteEditorView.swiftconstvalues",
+    "dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/x86_64/NoteEditorView.d",
+    "diagnostics" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/x86_64/NoteEditorView.dia",
+    "object" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/x86_64/NoteEditorView.o",
+    "swift-dependencies" : "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/DerivedData/Build/Intermediates.noindex/CoupleWidgets.build/Debug-iphonesimulator/CoupleWidgets.build/Objects-normal/x86_64/NoteEditorView.swiftdeps"
+  }
+}

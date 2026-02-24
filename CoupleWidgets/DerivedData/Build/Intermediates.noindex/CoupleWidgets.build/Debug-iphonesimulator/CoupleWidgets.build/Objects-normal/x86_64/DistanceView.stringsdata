@@ -1,0 +1,40 @@
+{
+  "source": "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/CoupleWidgets/App/UI/DistanceView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Distance",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "Me: %@",
+        "location": {
+          "startingColumn": 11,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Partner: %@",
+        "location": {
+          "startingColumn": 11,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "Set city",
+        "location": {
+          "startingColumn": 10,
+          "startingLine": 32
+        }
+      }
+    ]
+  },
+  "version": 1
+}

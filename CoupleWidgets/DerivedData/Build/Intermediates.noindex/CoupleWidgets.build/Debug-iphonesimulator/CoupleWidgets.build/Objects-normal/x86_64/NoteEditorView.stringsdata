@@ -1,0 +1,136 @@
+{
+  "source": "/Users/jakobhartmann/Documents/CoupleWidgets/CoupleWidgets/CoupleWidgets/App/UI/NoteEditorView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Note",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "Note",
+        "location": {
+          "startingColumn": 12,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "Author",
+        "location": {
+          "startingColumn": 12,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "Streak",
+        "location": {
+          "startingColumn": 12,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Updated",
+        "location": {
+          "startingColumn": 12,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld/100",
+        "location": {
+          "startingColumn": 11,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "Author",
+        "location": {
+          "startingColumn": 12,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ (Me)",
+        "location": {
+          "startingColumn": 11,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ (Partner)",
+        "location": {
+          "startingColumn": 11,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Current",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "Longest",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "updatedAt",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save",
+        "location": {
+          "startingColumn": 12,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear note",
+        "location": {
+          "startingColumn": 11,
+          "startingLine": 61
+        }
+      }
+    ]
+  },
+  "version": 1
+}
