@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CoupleWidgets – Stay Close, Always</title>
+  <style>
+    :root{--bg:#0e0e12;--bg2:#16161e;--card:#1a1a26;--accent:#e8556d;--accent2:#ff8fa3;--text:#f0f0f5;--muted:#9090aa;--border:rgba(232,85,109,0.2);}
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;}
+    nav{display:flex;justify-content:space-between;align-items:center;padding:18px 40px;background:rgba(14,14,18,0.95);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;backdrop-filter:blur(12px);}
+    .nav-logo{font-size:1.2rem;font-weight:700;text-decoration:none;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+    .nav-links{display:flex;gap:24px;align-items:center;}
+    .nav-links a{color:var(--muted);text-decoration:none;font-size:0.9rem;transition:color .2s;}
+    .nav-links a:hover{color:var(--text);}
+    .nav-cta{background:linear-gradient(135deg,var(--accent),#c23d55)!important;color:#fff!important;padding:10px 22px;border-radius:100px;font-weight:600!important;box-shadow:0 4px 16px rgba(232,85,109,0.35);}
+    .hero{max-width:1100px;margin:0 auto;padding:100px 24px 80px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
+    .hero-tag{display:inline-block;background:rgba(232,85,109,0.12);color:var(--accent2);font-size:0.78rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;padding:6px 14px;border-radius:100px;margin-bottom:20px;border:1px solid var(--border);}
+    h1{font-size:3.2rem;font-weight:800;line-height:1.1;margin-bottom:20px;letter-spacing:-0.02em;}
+    h1 span{background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+    .hero-sub{color:var(--muted);font-size:1.05rem;margin-bottom:36px;max-width:420px;}
+    .hero-actions{display:flex;gap:16px;align-items:center;flex-wrap:wrap;}
+    .btn-primary{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,var(--accent),#c23d55);color:#fff;padding:14px 28px;border-radius:100px;text-decoration:none;font-weight:700;font-size:0.95rem;box-shadow:0 6px 24px rgba(232,85,109,0.4);transition:transform .2s,box-shadow .2s;}
+    .btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 32px rgba(232,85,109,0.5);}
+    .btn-secondary{display:inline-flex;align-items:center;gap:8px;color:var(--muted);text-decoration:none;font-size:0.9rem;transition:color .2s;}
+    .btn-secondary:hover{color:var(--text);}
+    .hero-visual{display:flex;justify-content:center;}
+    .phone{width:260px;background:#1a1a2e;border-radius:40px;padding:12px;box-shadow:0 40px 80px rgba(0,0,0,0.6),0 0 0 1px rgba(255,255,255,0.06) inset;}
+    .phone-screen{border-radius:30px;overflow:hidden;background:linear-gradient(160deg,#1c1525,#2a1835);aspect-ratio:9/19.5;display:flex;flex-direction:column;align-items:center;padding:2rem 1rem 1.5rem;gap:1rem;position:relative;}
+    .phone-notch{position:absolute;top:0;left:50%;transform:translateX(-50%);width:90px;height:26px;background:#0e0e12;border-radius:0 0 18px 18px;}
+    .phone-time{font-size:3rem;font-weight:300;color:#fff;margin-top:1.5rem;letter-spacing:-0.04em;}
+    .phone-date{font-size:0.75rem;color:rgba(255,255,255,0.45);margin-top:-0.6rem;}
+    .widget{width:100%;border-radius:18px;padding:1rem 1.1rem;}
+    .widget-note{background:rgba(232,85,109,0.18);border:1px solid rgba(232,85,109,0.25);}
+    .w-label{font-size:0.58rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--accent2);margin-bottom:4px;}
+    .w-text{font-size:0.82rem;color:#fff;font-style:italic;line-height:1.4;}
+    .widget-row{display:flex;gap:0.6rem;width:100%;}
+    .widget-sm{flex:1;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:0.7rem;}
+    .widget-sm .w-label{color:rgba(255,255,255,0.35);}
+    .widget-sm .w-val{font-size:1.2rem;color:#fff;font-weight:300;}
+    .widget-sm .w-sub{font-size:0.58rem;color:rgba(255,255,255,0.35);margin-top:2px;}
+    .widget-dist .w-val{color:var(--accent2);}
+    .features{max-width:1100px;margin:0 auto;padding:80px 24px;}
+    .section-label{font-size:0.8rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:12px;text-align:center;}
+    .section-title{font-size:2.4rem;font-weight:800;text-align:center;margin-bottom:56px;letter-spacing:-0.02em;}
+    .section-title span{background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+    .features-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+    .feature-card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:32px;transition:transform .3s,box-shadow .3s,border-color .3s;}
+    .feature-card:hover{transform:translateY(-6px);box-shadow:0 20px 50px rgba(232,85,109,0.12);border-color:rgba(232,85,109,0.4);}
+    .feature-icon{font-size:2rem;margin-bottom:16px;}
+    .feature-card h3{font-size:1.2rem;font-weight:700;margin-bottom:10px;}
+    .feature-card p{color:var(--muted);font-size:0.9rem;line-height:1.7;}
+    .social{max-width:1100px;margin:0 auto;padding:40px 24px 80px;}
+    .reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+    .review-card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:28px;}
+    .stars{color:var(--accent);font-size:1rem;margin-bottom:12px;}
+    .review-text{color:var(--muted);font-size:0.9rem;line-height:1.7;margin-bottom:16px;font-style:italic;}
+    .reviewer{font-size:0.85rem;font-weight:600;color:var(--text);}
+    .cta{margin:0 24px 80px;background:linear-gradient(135deg,#1a0f20,#2d1535);border:1px solid var(--border);border-radius:28px;padding:72px 40px;text-align:center;position:relative;overflow:hidden;}
+    .cta::before{content:'';position:absolute;top:-50%;left:-20%;width:80%;height:200%;background:radial-gradient(circle,rgba(232,85,109,0.2) 0%,transparent 60%);pointer-events:none;}
+    .cta h2{font-size:2.6rem;font-weight:800;margin-bottom:16px;position:relative;z-index:1;}
+    .cta p{color:var(--muted);margin-bottom:36px;font-size:1rem;position:relative;z-index:1;}
+    .cta .btn-primary{position:relative;z-index:1;font-size:1rem;padding:16px 36px;}
+    footer{background:var(--bg);border-top:1px solid var(--border);padding:40px 24px;text-align:center;color:var(--muted);font-size:0.85rem;}
+    footer a{color:var(--muted);text-decoration:none;margin:0 12px;}
+    footer a:hover{color:var(--text);}
+    @media(max-width:900px){.hero{grid-template-columns:1fr;padding:80px 24px 40px;text-align:center;}.hero-sub{margin:0 auto 36px;}.hero-actions{justify-content:center;}.hero-visual{display:none;}.features-grid,.reviews-grid{grid-template-columns:1fr;}}
+    @media(max-width:600px){nav{padding:16px 20px;}.nav-links{display:none;}h1{font-size:2.2rem;}}
+  </style>
+</head>
+<body>
+<nav>
+  <a href="#" class="nav-logo">💑 CoupleWidgets</a>
+  <div class="nav-links">
+    <a href="#features">Features</a>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="#download" class="nav-cta">Download</a>
+  </div>
+</nav>
+<section class="hero">
+  <div class="hero-text">
+    <div class="hero-tag">✦ For couples in love</div>
+    <h1>Stay <span>close,</span><br>always together.</h1>
+    <p class="hero-sub">Beautiful lock screen widgets that keep you and your partner connected — sweet notes, shared countdowns, and real-time distance, right on your screen.</p>
+    <div class="hero-actions">
+      <a href="#download" class="btn-primary" id="download">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        Download on App Store
+      </a>
+      <a href="support.html" class="btn-secondary">Need help? →</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="phone">
+      <div class="phone-screen">
+        <div class="phone-notch"></div>
+        <div class="phone-time">9:41</div>
+        <div class="phone-date">Tuesday, February 24</div>
+        <div class="widget widget-note">
+          <div class="w-label">💌 Note from Alex</div>
+          <div class="w-text">"Can't wait to see you tonight ♡"</div>
+        </div>
+        <div class="widget-row">
+          <div class="widget-sm">
+            <div class="w-label">⏳ Countdown</div>
+            <div class="w-val">12</div>
+            <div class="w-sub">days until Paris</div>
+          </div>
+          <div class="widget-sm widget-dist">
+            <div class="w-label">📍 Distance</div>
+            <div class="w-val">3.2 km</div>
+            <div class="w-sub">from Alex</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="features" id="features">
+  <div class="section-label">✦ Features</div>
+  <h2 class="section-title">Everything you need to feel <span>connected</span></h2>
+  <div class="features-grid">
+    <div class="feature-card"><div class="feature-icon">💌</div><h3>Lock Screen Notes</h3><p>Send sweet messages that appear directly on your partner's lock screen. A little love note, anytime.</p></div>
+    <div class="feature-card"><div class="feature-icon">⏳</div><h3>Shared Countdowns</h3><p>Count down to your next date, anniversary, or trip together — and see it every time you check your phone.</p></div>
+    <div class="feature-card"><div class="feature-icon">📍</div><h3>Distance Display</h3><p>Always know how far apart you are. Whether around the corner or across the world, you're never truly far.</p></div>
+  </div>
+</section>
+<section class="social">
+  <div class="section-label">✦ Loved by couples</div>
+  <h2 class="section-title">What people are <span>saying</span></h2>
+  <div class="reviews-grid">
+    <div class="review-card"><div class="stars">★★★★★</div><p class="review-text">"The lock screen notes are so cute! My partner sends me a good morning message every day and it's the first thing I see."</p><div class="reviewer">— Sarah M.</div></div>
+    <div class="review-card"><div class="stars">★★★★★</div><p class="review-text">"We use the countdown for our anniversary trip. Seeing it on my lock screen every day makes me so excited!"</p><div class="reviewer">— Marco T.</div></div>
+    <div class="review-card"><div class="stars">★★★★★</div><p class="review-text">"Long distance relationship just got a little easier. The distance widget is a constant reminder that we're thinking of each other."</p><div class="reviewer">— Lena K.</div></div>
+  </div>
+</section>
+<section class="cta">
+  <h2>Love deserves a beautiful widget. 💑</h2>
+  <p>Download CoupleWidgets today — free on the App Store.</p>
+  <a href="#download" class="btn-primary">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+    Download on App Store
+  </a>
+</section>
+<footer>
+  <a href="#">Home</a>
+  <a href="support.html">Support</a>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="mailto:jakobsworld@web.de">Contact</a>
+  <br><br>
+  © 2025 CoupleWidgets. All rights reserved.
+</footer>
+</body>
+</html>
