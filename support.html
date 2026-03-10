@@ -5,92 +5,262 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Support – TwoUfUs</title>
   <style>
-    :root{--bg:#0e0e12;--bg2:#16161e;--card:#1a1a26;--accent:#e8556d;--accent2:#ff8fa3;--text:#f0f0f5;--muted:#9090aa;--border:rgba(232,85,109,0.2);}
-    *{margin:0;padding:0;box-sizing:border-box;}
-    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;}
-    nav{display:flex;justify-content:space-between;align-items:center;padding:18px 40px;background:rgba(14,14,18,0.95);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;}
-    .nav-logo{font-size:1.2rem;font-weight:700;text-decoration:none;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
-    nav a.back{color:var(--muted);text-decoration:none;font-size:0.9rem;}
-    nav a.back:hover{color:var(--text);}
-    .page{max-width:800px;margin:0 auto;padding:72px 24px 100px;}
-    .page-label{font-size:0.8rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:12px;}
-    h1{font-size:2.6rem;font-weight:800;margin-bottom:14px;}
-    .subtitle{color:var(--muted);font-size:1.05rem;margin-bottom:60px;max-width:500px;}
-    .contact-card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:36px 40px;margin-bottom:60px;display:flex;gap:28px;align-items:center;flex-wrap:wrap;}
-    .contact-icon{font-size:3rem;}
-    .contact-info h2{font-size:1.3rem;font-weight:700;margin-bottom:8px;}
-    .contact-info p{color:var(--muted);margin-bottom:16px;}
-    .contact-link{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,var(--accent),#c23d55);color:#fff;padding:12px 24px;border-radius:100px;text-decoration:none;font-weight:600;font-size:0.95rem;transition:transform .2s,box-shadow .2s;box-shadow:0 4px 16px rgba(232,85,109,0.35);}
-    .contact-link:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(232,85,109,0.45);}
-    h2.faq-title{font-size:1.8rem;font-weight:800;margin-bottom:32px;}
-    .faq-list{display:flex;flex-direction:column;gap:16px;}
-    .faq-item{background:var(--card);border:1px solid var(--border);border-radius:16px;overflow:hidden;}
-    .faq-question{padding:20px 24px;font-weight:600;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none;}
-    .faq-question:hover{color:var(--accent2);}
-    .faq-arrow{color:var(--accent);font-size:1.1rem;transition:transform .3s;}
-    .faq-item.open .faq-arrow{transform:rotate(180deg);}
-    .faq-answer{max-height:0;overflow:hidden;transition:max-height .35s ease,padding .35s ease;padding:0 24px;color:var(--muted);font-size:0.95rem;}
-    .faq-item.open .faq-answer{max-height:400px;padding:0 24px 20px;}
-    .tips-section{margin-top:64px;}
-    .tips-section h2{font-size:1.8rem;font-weight:800;margin-bottom:32px;}
-    .tips-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;}
-    .tip-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px;}
-    .tip-emoji{font-size:1.8rem;margin-bottom:12px;}
-    .tip-card h3{font-size:1rem;font-weight:700;margin-bottom:8px;}
-    .tip-card p{color:var(--muted);font-size:0.88rem;}
-    footer{background:var(--bg);border-top:1px solid var(--border);padding:36px 24px;text-align:center;color:var(--muted);font-size:0.85rem;}
-    footer a{color:var(--muted);text-decoration:none;margin:0 12px;}
-    footer a:hover{color:var(--text);}
-    @media(max-width:600px){nav{padding:16px 20px;}.contact-card{padding:24px;}}
+    :root {
+      --bg: #0e0e12; --bg2: #16161e; --card: #1a1a26;
+      --accent: #e8556d; --accent2: #ff8fa3;
+      --text: #f0f0f5; --muted: #9090aa;
+      --border: rgba(232, 85, 109, 0.2);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+    nav {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 18px 40px; background: rgba(14,14,18,0.95);
+      border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100;
+    }
+    .nav-logo {
+      font-size: 1.2rem; font-weight: 700; text-decoration: none;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    nav a.back { color: var(--muted); text-decoration: none; font-size: 0.9rem; }
+    nav a.back:hover { color: var(--text); }
+    .page { max-width: 800px; margin: 0 auto; padding: 72px 24px 100px; }
+    .page-label { font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); font-weight: 600; margin-bottom: 12px; }
+    h1 { font-size: 2.6rem; font-weight: 800; margin-bottom: 14px; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin-bottom: 60px; max-width: 500px; }
+
+    /* CONTACT CARD */
+    .contact-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 20px; padding: 36px 40px; margin-bottom: 60px;
+      display: flex; gap: 28px; align-items: center; flex-wrap: wrap;
+    }
+    .contact-icon { font-size: 3rem; }
+    .contact-info h2 { font-size: 1.3rem; font-weight: 700; margin-bottom: 8px; }
+    .contact-info p { color: var(--muted); margin-bottom: 16px; }
+    .contact-link {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: linear-gradient(135deg, var(--accent), #c23d55);
+      color: #fff; padding: 12px 24px; border-radius: 100px;
+      text-decoration: none; font-weight: 600; font-size: 0.95rem;
+      transition: transform .2s, box-shadow .2s;
+      box-shadow: 0 4px 16px rgba(232,85,109,0.35);
+    }
+    .contact-link:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(232,85,109,0.45); }
+
+    /* FAQ */
+    h2.faq-title { font-size: 1.8rem; font-weight: 800; margin-bottom: 32px; }
+    .faq-list { display: flex; flex-direction: column; gap: 16px; }
+    .faq-item {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; overflow: hidden;
+    }
+    .faq-question {
+      padding: 20px 24px; font-weight: 600; cursor: pointer;
+      display: flex; justify-content: space-between; align-items: center;
+      user-select: none;
+    }
+    .faq-question:hover { color: var(--accent2); }
+    .faq-arrow { color: var(--accent); font-size: 1.1rem; transition: transform .3s; }
+    .faq-item.open .faq-arrow { transform: rotate(180deg); }
+    .faq-answer {
+      max-height: 0; overflow: hidden;
+      transition: max-height .35s ease, padding .35s ease;
+      padding: 0 24px; color: var(--muted); font-size: 0.95rem;
+    }
+    .faq-item.open .faq-answer { max-height: 400px; padding: 0 24px 20px; }
+
+    /* TIPS */
+    .tips-section { margin-top: 64px; }
+    .tips-section h2 { font-size: 1.8rem; font-weight: 800; margin-bottom: 32px; }
+    .tips-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
+    .tip-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 24px;
+    }
+    .tip-emoji { font-size: 1.8rem; margin-bottom: 12px; }
+    .tip-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
+    .tip-card p { color: var(--muted); font-size: 0.88rem; }
+
+    footer { background: var(--bg); border-top: 1px solid var(--border); padding: 36px 24px; text-align: center; color: var(--muted); font-size: 0.85rem; }
+    footer a { color: var(--muted); text-decoration: none; margin: 0 12px; }
+    footer a:hover { color: var(--text); }
+    @media (max-width: 600px) { nav { padding: 16px 20px; } .contact-card { padding: 24px; } }
   </style>
 </head>
 <body>
+
   <nav>
     <a href="index.html" class="nav-logo">💑 TwoUfUs</a>
     <a href="index.html" class="back">← Back to home</a>
   </nav>
+
   <div class="page">
     <div class="page-label">Help &amp; Support</div>
-    <h1>We’re here to help 💬</h1>
-    <p class="subtitle">Having trouble with TwoUfUs? Browse our FAQ or reach out directly – we’ll get back to you as soon as possible.</p>
+    <h1>We're here to help 💬</h1>
+    <p class="subtitle">Having trouble with TwoUfUs? Browse our FAQ or reach out directly – we'll get back to you as soon as possible.</p>
+
+    <!-- CONTACT -->
     <div class="contact-card">
       <div class="contact-icon">📧</div>
       <div class="contact-info">
         <h2>Contact Support</h2>
-        <p>Can’t find the answer you’re looking for? Send us an email and we’ll help you out.</p>
-        <a href="mailto:jakobsworld@web.de?subject=TwoUfUs Support" class="contact-link">✉️ Send us an email</a>
+        <p>Can't find the answer you're looking for? Send us an email and we'll help you out.</p>
+        <a href="mailto:jakobsworld@web.de?subject=TwoUfUs Support" class="contact-link">
+          ✉️ Send us an email
+        </a>
       </div>
     </div>
+
+    <!-- FAQ -->
     <h2 class="faq-title">Frequently Asked Questions</h2>
     <div class="faq-list">
-      <div class="faq-item"><div class="faq-question" onclick="toggle(this)">How do I add a widget to my lock screen?<span class="faq-arrow">▾</span></div><div class="faq-answer">Long-press your iPhone lock screen, then tap the "Customize" button at the bottom. Select "Lock Screen", then tap the area where you want to add a widget. Scroll through the list to find TwoUfUs and tap to add it.</div></div>
-      <div class="faq-item"><div class="faq-question" onclick="toggle(this)">How do I connect with my partner?<span class="faq-arrow">▾</span></div><div class="faq-answer">Open TwoUfUs and tap "Connect Partner" on the home screen. You’ll get a unique invite code or link. Share it with your partner via any messaging app – once they enter the code in their app, you’ll be connected.</div></div>
-      <div class="faq-item"><div class="faq-question" onclick="toggle(this)">Why is the distance widget not showing?<span class="faq-arrow">▾</span></div><div class="faq-answer">Make sure location permissions are enabled for TwoUfUs. Go to Settings → Privacy &amp; Security → Location Services → TwoUfUs and set it to "Always" or "While Using App". Also ensure your partner has done the same and that both of you are connected in the app.</div></div>
-      <div class="faq-item"><div class="faq-question" onclick="toggle(this)">My partner isn’t receiving my messages – what do I do?<span class="faq-arrow">▾</span></div><div class="faq-answer">Check that your partner has notifications enabled for TwoUfUs in Settings → Notifications → TwoUfUs. Also verify that both devices are connected to the internet, and that you’re still paired in the app. If the issue persists, try disconnecting and reconnecting in Settings within the app.</div></div>
-      <div class="faq-item"><div class="faq-question" onclick="toggle(this)">How do I create a countdown?<span class="faq-arrow">▾</span></div><div class="faq-answer">Open TwoUfUs and tap the "Countdown" tab. Tap the + button to create a new event, enter a name and date, and save. The countdown will automatically appear on both your and your partner’s widgets once they’re set up.</div></div>
-      <div class="faq-item"><div class="faq-question" onclick="toggle(this)">Is my location shared all the time?<span class="faq-arrow">▾</span></div><div class="faq-answer">Your location is only shared with your connected partner, never with us or anyone else. You can pause location sharing at any time within the app under Settings → Location → Pause Sharing. Your location is only used to calculate and display the distance widget.</div></div>
-      <div class="faq-item"><div class="faq-question" onclick="toggle(this)">How do I delete my account and data?<span class="faq-arrow">▾</span></div><div class="faq-answer">To delete your account, go to Settings within the TwoUfUs app and tap "Delete Account". This will permanently remove all your data from our systems within 30 days. You can also uninstall the app to remove local data from your device.</div></div>
-      <div class="faq-item"><div class="faq-question" onclick="toggle(this)">Which iPhone models and iOS versions are supported?<span class="faq-arrow">▾</span></div><div class="faq-answer">TwoUfUs requires iOS 16 or later (for lock screen widget support). It is compatible with iPhone 8 and newer. For the best experience, we recommend running the latest version of iOS.</div></div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggle(this)">
+          Do I need an account to use TwoUfUs?
+          <span class="faq-arrow">▾</span>
+        </div>
+        <div class="faq-answer">
+          Yes. TwoUfUs requires Sign in with Apple to create your account. This means no separate password – just use the Apple ID already on your iPhone. Your data is stored securely in iCloud (CloudKit). Both you and your partner need to sign in with Apple before connecting.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggle(this)">
+          How do I add a widget to my lock screen?
+          <span class="faq-arrow">▾</span>
+        </div>
+        <div class="faq-answer">
+          Long-press your iPhone lock screen, then tap the "Customize" button at the bottom. Select "Lock Screen", then tap the area where you want to add a widget. Scroll through the list to find TwoUfUs and tap to add it.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggle(this)">
+          How do I connect with my partner?
+          <span class="faq-arrow">▾</span>
+        </div>
+        <div class="faq-answer">
+          After signing in with Apple, you'll receive a unique invite code (in the format XXXX-XXXX). Share it with your partner via any messaging app. Once they enter the code in their app, you'll be connected and all features will sync between your devices.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggle(this)">
+          Why is the distance widget not showing?
+          <span class="faq-arrow">▾</span>
+        </div>
+        <div class="faq-answer">
+          Make sure location permissions are enabled for TwoUfUs. Go to Settings → Privacy &amp; Security → Location Services → TwoUfUs and set it to "Always" or "While Using App". Also ensure your partner has done the same and that both of you are connected in the app.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggle(this)">
+          How does the shared note work?
+          <span class="faq-arrow">▾</span>
+        </div>
+        <div class="faq-answer">
+          TwoUfUs features a single shared note (up to 100 characters) between you and your partner. When you update the note, your partner receives a push notification and the new note appears on their lock screen widget. The previous note is replaced – it's not a chat, but a little message board for two.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggle(this)">
+          My partner isn't receiving a notification when I update the note – what do I do?
+          <span class="faq-arrow">▾</span>
+        </div>
+        <div class="faq-answer">
+          Check that your partner has notifications enabled for TwoUfUs in Settings → Notifications → TwoUfUs. Also verify that both devices are connected to the internet and still paired in the app. Notifications are delivered via iCloud (CloudKit), so a working internet connection on both sides is required.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggle(this)">
+          How do I create a countdown?
+          <span class="faq-arrow">▾</span>
+        </div>
+        <div class="faq-answer">
+          Open TwoUfUs and navigate to the Countdown section. Set a target date and an optional label (up to 30 characters), then save. The countdown will automatically sync to your partner's device and appear on the widget.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggle(this)">
+          Is my location shared all the time?
+          <span class="faq-arrow">▾</span>
+        </div>
+        <div class="faq-answer">
+          Location access is optional. If you grant "Always" permission, your location updates automatically in the background whenever your device detects a significant change, which keeps the distance widget current. If you grant "While Using App", the distance only updates when you open the app. You can change or revoke location permissions at any time in Settings → Privacy &amp; Security → Location Services → TwoUfUs. Your location is only used to calculate the distance – it is shared only with your partner.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggle(this)">
+          How do I sign out or remove my data?
+          <span class="faq-arrow">▾</span>
+        </div>
+        <div class="faq-answer">
+          To sign out, go to Settings → Account → Sign Out within the TwoUfUs app. Note: signing out does not immediately delete your data from iCloud – it may remain there for a limited time and can be restored if you sign back in with the same Apple ID. To request permanent deletion of your data, contact us at jakobsworld@web.de.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggle(this)">
+          Which iPhone models and iOS versions are supported?
+          <span class="faq-arrow">▾</span>
+        </div>
+        <div class="faq-answer">
+          TwoUfUs requires iOS 16 or later (needed for lock screen widget support). It is compatible with all iPhones that support iOS 16, starting from iPhone 8. For the best experience, we recommend running the latest version of iOS.
+        </div>
+      </div>
+
     </div>
+
+    <!-- TIPS -->
     <div class="tips-section">
       <h2>Tips for the best experience</h2>
       <div class="tips-grid">
-        <div class="tip-card"><div class="tip-emoji">📶</div><h3>Keep a stable connection</h3><p>For accurate distance updates, ensure both devices have a good internet connection.</p></div>
-        <div class="tip-card"><div class="tip-emoji">🔋</div><h3>Manage battery usage</h3><p>Set location to "While Using App" if you’re concerned about battery life. The widget will update when the app is opened.</p></div>
-        <div class="tip-card"><div class="tip-emoji">🔔</div><h3>Enable notifications</h3><p>Turn on notifications so you never miss a sweet message from your partner.</p></div>
-        <div class="tip-card"><div class="tip-emoji">🔄</div><h3>Keep the app updated</h3><p>Enable automatic updates in the App Store for the latest features and bug fixes.</p></div>
+        <div class="tip-card">
+          <div class="tip-emoji">📶</div>
+          <h3>Keep a stable connection</h3>
+          <p>For accurate distance updates and note delivery, ensure both devices have a working internet connection.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-emoji">🔋</div>
+          <h3>Manage battery usage</h3>
+          <p>Set location to "While Using App" if you're concerned about battery life. The widget updates when the app is opened.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-emoji">🔔</div>
+          <h3>Enable notifications</h3>
+          <p>Turn on notifications so you never miss a sweet note update from your partner.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-emoji">🔄</div>
+          <h3>Keep the app updated</h3>
+          <p>Enable automatic updates in the App Store for the latest features and bug fixes.</p>
+        </div>
       </div>
     </div>
   </div>
+
   <footer>
     <a href="index.html">Home</a>
     <a href="privacy.html">Privacy Policy</a>
     <a href="mailto:jakobsworld@web.de">Contact</a>
     <br><br>
-    © 2025 TwoUfUs. All rights reserved.
+    © 2026 TwoUfUs. All rights reserved.
   </footer>
+
   <script>
-    function toggle(el) { el.parentElement.classList.toggle('open'); }
+    function toggle(el) {
+      const item = el.parentElement;
+      item.classList.toggle('open');
+    }
   </script>
+
 </body>
 </html>
